@@ -1,0 +1,22 @@
+.select2-results__option--disabled{
+    display:none;
+}
+.companies__item{
+    cursor: pointer;
+}
+.steps__form .button:disabled{
+    cursor: not-allowed;
+}
+.steps__form .button:disabled:hover{
+    color: #fff;
+    background-color: #ff4132;
+}
+.steps__form-row .irs--flat .irs-single:before{
+    display:none;
+}
+.steps__form-row .irs--flat .irs-single {
+    display: block;
+    top: 15px;
+    padding: 3px 5px;
+    font-size: 16px;
+}
